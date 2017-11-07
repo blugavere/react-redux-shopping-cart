@@ -34,7 +34,7 @@ var RemoveFromCart = function RemoveFromCart(props) {
     {
       styles: styles,
       disabled: disabled,
-      className: 'rrshoppingcart-remove-btn',
+      className: 'rrshoppingcart--button-remove',
       onClick: function onClick() {
         return removeFromCart(item);
       } },

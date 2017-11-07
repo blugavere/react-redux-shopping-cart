@@ -34,7 +34,7 @@ var AddToCart = function AddToCart(props) {
     {
       styles: styles,
       disabled: disabled,
-      className: 'rrshoppingcart-add-btn',
+      className: 'rrshoppingcart--button-add',
       onClick: function onClick() {
         return addToCart(item);
       } },

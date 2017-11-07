@@ -32,7 +32,7 @@ var IncreaseQty = function IncreaseQty(props) {
     _Button2.default,
     {
       styles: styles,
-      className: 'rrshoppingcart-qty-btn rrshoppingcart-inc',
+      className: 'rrshoppingcart--button-qty rrshoppingcart--button-inc',
       onClick: function onClick() {
         return increaseQty(itemId);
       } },

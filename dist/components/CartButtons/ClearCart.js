@@ -31,7 +31,7 @@ var ClearCart = function ClearCart(props) {
     _Button2.default,
     {
       styles: styles,
-      className: 'rrshoppingcart-clear-btn',
+      className: 'rrshoppingcart--button-clear',
       onClick: function onClick() {
         return clearCart();
       } },

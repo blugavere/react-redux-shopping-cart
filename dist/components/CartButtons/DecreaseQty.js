@@ -32,7 +32,7 @@ var DecreaseQty = function DecreaseQty(props) {
     _Button2.default,
     {
       styles: styles,
-      className: 'rrshoppingcart-qty-btn rrshoppingcart-dec',
+      className: 'rrshoppingcart--button-qty rrshoppingcart--button-dec',
       onClick: function onClick() {
         return decreaseQty(itemId);
       } },
