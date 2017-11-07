@@ -17,6 +17,10 @@
     "Cart"
   ],
   "author": "Enes Tufekci <enesxtufekci@gmail.com> (https://github.com/enesTufekci)",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/enesTufekci/react-redux-shopping-cart"
+  },
   "license": "MIT",
   "peerDependencies": {
     "prop-types": "^15.6.0",
