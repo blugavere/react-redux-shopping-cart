@@ -42,5 +42,8 @@
     "eslint-plugin-import": "^2.2.0",
     "eslint-plugin-react": "^7.4.0",
     "jest": "^21.2.1"
+  },
+  "dependencies": {
+    "styled-components": "2.2.3"
   }
 }
