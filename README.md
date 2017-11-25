@@ -82,9 +82,9 @@ A programmatic API can be exposed by retrieving a service and passing in the red
 
 ```js
 
-import { getCartService } from 'react-redux-shopping-cart';
+import { createCart } from 'react-redux-shopping-cart';
 
-const cartService = getCartService(store);
+const cart = createCart(store);
 
 const item = {
   id: 'foo',
@@ -92,7 +92,7 @@ const item = {
   qty: 1
 };
 
-cartService.setCart({items: [item]});
+cart.setCart({items: [item]});
 
 ```
 
